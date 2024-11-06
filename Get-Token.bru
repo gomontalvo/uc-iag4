@@ -1,0 +1,15 @@
+meta {
+  name: Get-Token
+  type: http
+  seq: 2
+}
+
+get {
+  url: {{AWSurl}}/prod/token?email=omar.montalvo.r2@gmail.com
+  body: none
+  auth: none
+}
+
+params:query {
+  email: omar.montalvo.r2@gmail.com
+}

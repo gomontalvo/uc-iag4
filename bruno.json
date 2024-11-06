@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "IAG4-Evaluacion1",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

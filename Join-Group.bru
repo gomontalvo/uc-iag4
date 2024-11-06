@@ -1,0 +1,22 @@
+meta {
+  name: Join-Group
+  type: http
+  seq: 5
+}
+
+post {
+  url: {{AWSurl}}/prod/groups/{{groupid}}/join
+  body: json
+  auth: none
+}
+
+headers {
+  Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im9tYXIubW9udGFsdm8ucjJAZ21haWwuY29tIiwiaWF0IjoxNzMwODQ4NTY0LCJleHAiOjE3MzA4NTIxNjR9.KP0GgzmYKRV0gMxq_E6ay_gHx-BT0PGmG35ybcDPSjo
+}
+
+body:json {
+  {
+    "name": "Grupo 9",
+    "githubUsername": "gomontalvo"
+  }
+}
